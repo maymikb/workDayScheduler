@@ -10,16 +10,33 @@ $(function () {
   // useful when saving the description in local storage? 
 
   var buttons = $(".savebtn")
+  
   buttons.on ("click", function(event){
     console.dir(event.currentTarget)
+
 
     var parentId=event.currentTarget.parentElement.id;
     console.log(parentId)
 
+    
     var textToSave=event.currentTarget.previousElementSibling.value;
     console.log(textToSave)
 
     localStorage.setItem(parentId, textToSave)
+  })
+
+
+
+
+
+  buttons.each(function(){
+
+  })
+  var parentId=this.parentElementId;
+
+    var savedtext=localStorage.getItem()
+   
+   this.previousElementSibling.value= savedText
   })
 
   //
