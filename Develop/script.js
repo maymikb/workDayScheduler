@@ -25,13 +25,31 @@ $(function () {
 
 
 
+  var currentHour = dayjs().hour()
+   console.log(currentHour)
+
+   var timeBlocks= $(".time-block");
+   
+   timeBlocks.each(function(){
+  var blockTime = parseInt(this.id.split("-")[1])
+
+  if(blockTime ===currentHour){
+    this.classList.add("present")
+  }
+
+    if(blockTime < currentHour){
+      this.classList.add("past")
+    }
+
+      if(blockTime > currentHour){
+        this.classList.add("future")
+      }
+ })
+
 
 
   buttons.each(function(){
-
-  })
-  var parentId=this.parentElementId;
-
+    var parentId=this.parentElementId;
     var savedtext=localStorage.getItem()
     this.previousElementSibling.value= savedText
   })
@@ -42,8 +60,7 @@ $(function () {
   // attribute of each time-block be used to conditionally add or remove the
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time? FOR LOOP?
-   var currentHour = dayjs().hour()
-   console.log(currentHour)
+   
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
