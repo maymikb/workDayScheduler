@@ -3,16 +3,12 @@ README
 # Work Day Scheduler
 By Maymi Sarr
 
-## Table of Contents
-- [Purpose] (#title)
-- [Description] (#description)
-- [Link] (#link)
-- [Screenshot] (#installation)
-- [Usage](#usage)
-
 ## Table of contents
+- [Purpose](#purpose)
 - [Description](#description) 
 - [Installation](#installation)
+- [Link](#link)
+- [Screenshot](#screenshot)
 
 
 ## Purpose
