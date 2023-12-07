@@ -29,4 +29,4 @@ The work day scheduler app is a week day planner to help manage one’s schedule
 
 
 ## Screenshot
-![](./appScreenshot.png)
+![](./Assets/appScreenshot.png)
