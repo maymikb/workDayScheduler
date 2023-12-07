@@ -10,6 +10,10 @@ By Maymi Sarr
 - [Screenshot] (#installation)
 - [Usage](#usage)
 
+## Table of contents
+- [Description](#description) 
+- [Installation](#installation)
+
 
 ## Purpose
 The purpose of this app is to help with scheduling and managing one’s (9am-5pm) work day from Monday through Friday efficiently. 
