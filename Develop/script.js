@@ -10,8 +10,10 @@ $(function () {
   // useful when saving the description in local storage? 
 
   var buttons = $(".savebtn")
-  buttons.on ("click", function(){
-    alert("Clicked!")
+  buttons.on ("click", function(event){
+    console.dir(event.currentTarget)
+
+   
   })
 
   //
