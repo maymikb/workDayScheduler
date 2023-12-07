@@ -14,10 +14,8 @@ $(function () {
   buttons.on ("click", function(event){
     console.dir(event.currentTarget)
 
-
     var parentId=event.currentTarget.parentElement.id;
     console.log(parentId)
-
     
     var textToSave=event.currentTarget.previousElementSibling.value;
     console.log(textToSave)
@@ -35,8 +33,7 @@ $(function () {
   var parentId=this.parentElementId;
 
     var savedtext=localStorage.getItem()
-   
-   this.previousElementSibling.value= savedText
+    this.previousElementSibling.value= savedText
   })
 
   //
@@ -45,6 +42,8 @@ $(function () {
   // attribute of each time-block be used to conditionally add or remove the
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time? FOR LOOP?
+   var currentHour = dayjs().hour()
+   console.log(currentHour)
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
