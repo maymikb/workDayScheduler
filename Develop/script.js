@@ -15,6 +15,9 @@ $(function () {
 
     var parentId=event.currentTarget.parentElement.id;
     console.log(parentId)
+
+    var textToSave=event.currentTarget.previousElementSibling.value;
+    console.log(textToSave)
   })
 
   //
