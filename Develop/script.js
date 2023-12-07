@@ -13,7 +13,8 @@ $(function () {
   buttons.on ("click", function(event){
     console.dir(event.currentTarget)
 
-   
+    var parentId=event.currentTarget.parentElement.id;
+    console.log(parentId)
   })
 
   //
