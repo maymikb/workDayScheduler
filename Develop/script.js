@@ -18,6 +18,8 @@ $(function () {
 
     var textToSave=event.currentTarget.previousElementSibling.value;
     console.log(textToSave)
+
+    localStorage.setItem(parentId, textToSave)
   })
 
   //
