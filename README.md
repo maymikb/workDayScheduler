@@ -26,7 +26,7 @@ The work day scheduler app is a week day planner to help manage one’s schedule
 
 
 ## Link
-
+https://maymikb.github.io/workDayScheduler/
 
 ## Screenshot
 ![](./Assets/appScreenshot.png)
