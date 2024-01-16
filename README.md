@@ -20,13 +20,13 @@ The work day scheduler app is a week day planner to help manage one’s schedule
 
 
 ## Installation
-<div>Jquery </div>
+<div>jQuery </div>
 <div>JSON (live server)</div>
 <div>Day.js</div>
 
 
 ## Link
-https://maymikb.github.io/workDayScheduler/
+http://127.0.0.1:5502/Develop/index.html
 
 ## Screenshot
 ![](./Assets/appScreenshot.png)
