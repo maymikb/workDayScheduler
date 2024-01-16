@@ -1,8 +1,9 @@
 $(function () {
   
 
-  var buttons = $(".savebtn")
-  
+  var buttons = $(".saveBtn")
+   console.log("saveBtns are:",buttons)
+
   buttons.on ("click", function(event){
     console.dir(event.currentTarget)
 
